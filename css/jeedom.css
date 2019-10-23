@@ -1,0 +1,10 @@
+.gravatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: url('https://www.gravatar.com/avatar/ff1aacd9879cbb4258d783ce4234d569?s=50');
+    background-color: #fff;
+    background-repeat:no-repeat;
+    background-position: center;
+}
