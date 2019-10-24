@@ -70,7 +70,6 @@
     <script>
         var language;
         function getLanguage() {
-            (localStorage.getItem('language') == null) ? setLanguage('fr') : false;
             $.ajax({
                 url: 'language/' + localStorage.getItem('language') + '.json',
                 dataType: 'json', async: false, dataType: 'json',
@@ -81,9 +80,6 @@
                     console.log(err);
                 }
             });
-            language = {
-                "Documentation Jeedom": "Jeedom Documentation"
-            };
         }
 
         function setLanguage(lang) {
