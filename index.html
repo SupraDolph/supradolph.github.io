@@ -83,9 +83,14 @@
         }
 
         function setLanguage(lang) {
-            if (typeof lang == 'undefined' && localStorage.getItem('language') == null) {
+            let localLang = localStorage.getItem('language');
+            if (typeof lang == 'undefined' || localLang == null) {
                 lang = 'fr';
             }
+            elseif (localLang != null) {
+                lang = localLang;
+            }
+            
             localStorage.setItem('language', lang);
 
             getLanguage();
