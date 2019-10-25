@@ -1,19 +1,19 @@
-<h1 id="markdown-header-themoalternateview">themoalternateview</h1>
-<div class="toc">
+<h1 id="markdown-header-thermoalternateview">thermoAlternateView</h1>
+<aside class="toc">
     <ul>
-        <li><a href="#markdown-header-themoalternateview" rel="nofollow">themoalternateview</a>
+        <li><a href="#markdown-header-thermoalternateview" rel="nofollow">thermoalternateview</a>
             <ul>
                 <li><a href="#markdown-header-description" rel="nofollow">Description</a></li>
                 <li><a href="#markdown-header-prerequis-et-dependances" rel="nofollow">Prérequis et dépendances</a>
                     <ul>
-                        <li><a href="#markdown-header-configuration-des-modes-du-plugin-thermostat"
-                                rel="nofollow">Configuration des modes du plugin Thermostat</a></li>
+                        <li><a href="#markdown-header-configuration-des-modes-du-plugin-thermostat" rel="nofollow">Configuration des modes du plugin Thermostat</a></li>
                     </ul>
                 </li>
                 <li><a href="#markdown-header-rendu-visuel" rel="nofollow">Rendu visuel</a>
                     <ul>
                         <li><a href="#markdown-header-dark" rel="nofollow">Dark</a></li>
                         <li><a href="#markdown-header-light" rel="nofollow">Light</a></li>
+                        <li><a href="#markdown-header-darkatmo" rel="nofollow">DarkAtmo</a></li>
                     </ul>
                 </li>
                 <li><a href="#markdown-header-configuration" rel="nofollow">Configuration</a>
@@ -30,38 +30,32 @@
             </ul>
         </li>
     </ul>
-</div>
+</aside>
 <h2 id="markdown-header-description">Description</h2>
-<p>Ce plugin est une alternative d'affichage au widget standard du plugin Thermostat.
-    Il ne s'agit pas d'un thermostat autonome et n'est pas compatible avec d'autre thermostats.</p>
+<p>Ce plugin est une alternative d'affichage au widget standard du plugin Thermostat. Il ne s'agit pas d'un thermostat autonome et n'est pas compatible avec d'autre thermostats.</p>
 <h2 id="markdown-header-prerequis-et-dependances">Prérequis et dépendances</h2>
 <p>Le plugin <strong>thermostat</strong> doit être configuré avec au moins un thermostat actif.</p>
-<p>Le plugin <strong>agenda</strong> est facultatif mais est nécessaire afin d'afficher l'heure de prochaine
-    consigne.</p>
+<p>Le plugin <strong>agenda</strong> est facultatif mais est nécessaire afin d'afficher l'heure de prochaine consigne.
+</p>
 <h3 id="markdown-header-configuration-des-modes-du-plugin-thermostat">Configuration des modes du plugin Thermostat
 </h3>
-<p>Le sélecteur de modes utilise des icônes qui sont associés au nom du mode du thermostat. Pour que le visuel soit
-    optimal (icônes), le thermostat doit comporter des modes ayant pour nom <strong>Jour</strong>,
+<p>Le sélecteur de modes utilise des icônes qui sont associés au nom du mode du thermostat. Pour que le visuel soit optimal (icônes), le thermostat doit comporter des modes ayant pour nom <strong>Jour</strong>,
     <strong>Nuit</strong>, <strong>Confort</strong>, <strong>Eco</strong>, <strong>Vacances</strong>,
     <strong>Vacance</strong>, <strong>Hors gel</strong>, <strong>Confort -2</strong> et/ou <strong>Absent</strong>.
 </p>
-<p><img alt="Capture d’écran 2018-12-10 à 23.01.43.png"
-        src="https://bitbucket.org/repo/p4g5xBq/images/4250590141-Capture%20d%E2%80%99e%CC%81cran%202018-12-10%20a%CC%80%2023.01.43.png">
+<p><img src="images/thermoAlternateViewConfigModes.png">
 </p>
 <h2 id="markdown-header-rendu-visuel">Rendu visuel</h2>
 <h3 id="markdown-header-dark">Dark</h3>
-<p><img alt="Capture d’écran 2018-12-10 à 22.06.32.png"
-        src="https://bitbucket.org/repo/p4g5xBq/images/3987870509-Capture%20d%E2%80%99e%CC%81cran%202018-12-10%20a%CC%80%2022.06.32.png">
-</p>
+<p><img src="images/thermoAlternateViewDark.png"></p>
 <h3 id="markdown-header-light">Light</h3>
-<p><img alt="Capture d’écran 2018-12-10 à 22.07.57.png"
-        src="https://bitbucket.org/repo/p4g5xBq/images/2553290961-Capture%20d%E2%80%99e%CC%81cran%202018-12-10%20a%CC%80%2022.07.57.png">
-</p>
+<p><img src="images/thermoAlternateViewLight.png"></p>
+<h3 id="markdown-header-darkatmo">DarkAtmo</h3>
+<p><img src="images/thermoAlternateViewDarkatmo.png"></p>
 <h2 id="markdown-header-configuration">Configuration</h2>
 <h3 id="markdown-header-ajout-dun-widget">Ajout d'un widget</h3>
 <p>Depuis le menu de gestion, ajoutez un widget.
-    <img alt="Capture d’écran 2018-12-10 à 22.24.25.png"
-        src="https://bitbucket.org/repo/p4g5xBq/images/3677960835-Capture%20d%E2%80%99e%CC%81cran%202018-12-10%20a%CC%80%2022.24.25.png">
+    <img src="images/thermoAlternateViewConfigMain.png">
 </p>
 <h3 id="markdown-header-configuration-generale-du-widget">Configuration générale du widget</h3>
 <ul>
@@ -72,42 +66,38 @@
     <li><strong>Thermostat</strong> : Permet de sélectionner le thermostat dont le widget va remplacer le rendu</li>
     <li><strong>Template</strong> : Permet de choisir le rendu visuel du widget</li>
 </ul>
-<p><img alt="Capture d’écran 2018-12-10 à 22.05.32.png"
-        src="https://bitbucket.org/repo/p4g5xBq/images/913485724-Capture%20d%E2%80%99e%CC%81cran%202018-12-10%20a%CC%80%2022.05.32.png">
-</p>
+<img src="images/thermoAlternateViewConfigEquipement.png">
 <h3 id="markdown-header-configuration-des-options-du-widget">Configuration des options du widget</h3>
 <ul>
     <li><strong>Unité</strong> : Unité de température affichée sur le widget (° par défaut)</li>
-    <li><strong>Utiliser la couleur de fond du widget</strong> : Permet d'utiliser la couleur de widget Jeedom
-        plutôt que celle du template</li>
-    <li><strong>Température extérieure visible</strong> : Permet d'afficher la température extérieure (configurée
-        dans le thermostat)</li>
+    <li><strong>Utiliser la couleur de fond du widget</strong> : Permet d'utiliser la couleur de widget Jeedom plutôt que celle du template</li>
+    <li><strong>Température extérieure visible</strong> : Permet d'afficher la température extérieure (configurée dans le thermostat)</li>
     <li><strong>Hygrométrie visible</strong> : Permet d'afficher l'hygrométrie (configurée dans le thermostat)</li>
     <li><strong>Puissance visible</strong> : Permet d'afficher la puissance (configurée dans le thermostat)</li>
     <li><strong>Masquer les modes</strong> : Permet de ne pas afficher le sélecteur de modes</li>
-    <li><strong>Afficher la prochaine consigne (agenda)</strong> : Affiche l'heure de la prochaine consigne de
-        chauffage (expérimental). Cette fonctionnalité nécessite le plugin agenda.</li>
-    <li><strong>Afficher le nom de l'évènement (agenda)</strong> : Affiche le nom du prochain évènement.
-        Cette fonctionnalité nécessite le plugin agenda.</li>
+    <li><strong>Afficher la prochaine consigne (agenda)</strong> : Affiche l'heure de la prochaine consigne de chauffage (expérimental). Cette fonctionnalité nécessite le plugin agenda.</li>
+    <li><strong>Afficher le nom de l'évènement (agenda)</strong> : Affiche le nom du prochain évènement. Cette fonctionnalité nécessite le plugin agenda.</li>
     <li><strong>Couleur icône mode chauffage</strong> : Permet de modifier la couleur de l'icône de chauffe</li>
-    <li><strong>Couleur icône mode climatisation</strong> : Permet de modifier la couleur de l'icône de
-        refroidissement</li>
+    <li><strong>Couleur icône mode climatisation</strong> : Permet de modifier la couleur de l'icône de refroidissement
+    </li>
     <li><strong>Couleur icône mode suspendu</strong> : Permet de modifier la couleur de l'icône du mode suspendu
     </li>
     <li><strong>Couleur icône verrouillé</strong> : Permet de modifier la couleur de l'icône de verrouillage</li>
 </ul>
-<p><img alt="Capture d’écran 2018-12-10 à 22.06.01.png"
-        src="https://bitbucket.org/repo/p4g5xBq/images/3707997825-Capture%20d%E2%80%99e%CC%81cran%202018-12-10%20a%CC%80%2022.06.01.png">
-</p>
+<img src="images/thermoAlternateViewConfigOptions.png">
 <h2 id="markdown-header-bugs-connus">Bugs connus</h2>
 <ol>
-    <li>Le rafraichissement de la prochaine consigne ne fonctionne pas toujours</li>
+    <li>Le rafraîchissement de la prochaine consigne ne fonctionne pas toujours</li>
 </ol>
 <h2 id="markdown-header-changelog">Changelog</h2>
+<p class="text-primary">V2.4</p>
+<ul>
+    <li>Compatibilité Jeedom v4</li>
+    <li>Compatibilité php 7.3</li>
+</ul>
 <p class="text-primary">V2.3</p>
 <ul>
-    <li>ATTENTION : Il faut vider le cache du navigateur et revalider les nouveaux paramètres dans la configuration
-        !
+    <li>ATTENTION : Il faut vider le cache du navigateur et revalider les nouveaux paramètres dans la configuration !
     </li>
     <li>Ajout du template darkatmo</li>
     <li>Corrections esthétiques</li>

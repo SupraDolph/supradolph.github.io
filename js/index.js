@@ -52,7 +52,7 @@ function load(file) {
 
     setTimeout(() => {
         try {
-            $("html, body").animate({ scrollTop: $("#" + url.searchParams.get("section")).offset().top }, 500);
+            $("html, body").animate({ scrollTop: $(location.hash).offset().top }, 500);
         } catch (error) {
 
         }
