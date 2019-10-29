@@ -12,3 +12,43 @@
 img {
     max-width: 100%;
 }
+
+.sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    list-style-type: none;
+    padding-left: 2em;
+}
+
+.navbar-fixed-top {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: table;
+    width: 100%;
+}
+
+footer {
+    display: table-row;
+    height: 100px;
+}

@@ -1,0 +1,69 @@
+<h1>harmanKardonRC</h1>
+<div class="row">
+    <div class="col-md-3">
+        <aside class="sidebar">
+            <ul id="toc"></ul>
+        </aside>
+    </div>
+    <div class="col-md-9">
+        <h2>Description</h2>
+        <p>This plugin is based on HKAPI (<a class="ap-connect-link" href="https://github.com/KarimGeiger/HKAPI" rel="nofollow">https://github.com/KarimGeiger/HKAPI</a>) and allows you to control Harman Kardon brand amplifiers. Attention, this API has been
+            realized in reverse engineering because HK does not expose its API. Please read the associated README carefully, especially to know the restrictions and compatible equipment. To date:</p>
+        <ul>
+            <li>Harman Kardon AVR 370</li>
+            <li>Harman Kardon AVR 170 - Works, but heart-alive won't respond.</li>
+            <li>Harman Kardon AVR 171 - Works, but heart-alive won't respond.</li>
+            <li>Harman Kardon HK 3700 - Works, but has problems while waking up.</li>
+            <li>Harman Kardon BDS 7773w</li>
+            <li>Harman Kardon BDS 375</li>
+        </ul>
+        <p>From now, zone 2 is not managed.</p>
+        <h2>Prerequisites and dependencies</h2>
+        <p>N/A</p>
+        <h2>Visual rendering</h2>
+        <h3>Remote control</h3>
+        <p>A specific visual rendering has been developed to ensure the best possible experience.</p>
+        <p><img src="images/harmanKardonRCTelecommande.png"></p>
+        <h2>Configuration</h2>
+        <h3>Adding a widget</h3>
+        <p>From the management menu, add a widget.
+        </p>
+        <h3>General widget configuration</h3>
+        <ul>
+            <li>Equipment type: Select the type of your equipment (AVR: Amplifier, or BDS: Home Cinema)</li>
+            <li>Amplifier IP**: IP address of your equipment. It must be fixed or reserved on your DHCP server</li>
+        </ul>
+        <p><img src="images/harmanKardonRCConfigMain.png"></p>
+        <h3>Adding commands</h3>
+        <p>Basic commands are automatically added except for sources that depend on your equipment This is normally:</p>
+        <ul>
+            <li>Cable Sat</li>
+            <li>Disc</li>
+            <li>DVR</li>
+            <li>Radio</li>
+            <li>TV</li>
+            <li>USB</li>
+            <li>Game</li>
+            <li>Media Server</li>
+            <li>Home Network</li>
+            <li>AUX</li>
+            <li>Source A</li>
+            <li>Source B</li>
+            <li>Source C</li>
+            <li>Source D</li>
+        </ul>
+        <p>The name of the command is displayed on the dashboard remote control. The source must match the source of your amplifier (normally displayed in the amplifier menu)
+
+            <img src="images/harmanKardonRCConfigCommands.png">
+        </p>
+        <h2>Known bugs</h2>
+        <ol>
+            <li>N/A</li>
+        </ol>
+        <h2>Changelog</h2>
+        <p class="text-primary">V1.0</p>
+        <ul>
+            <li>Initial version</li>
+        </ul>
+    </div>
+</div>
