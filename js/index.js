@@ -56,6 +56,8 @@ function gotoPage(page) {
 
 //FONCTION PRINCIPALE
 function load(file) {
+    let href = decodeURIComponent(window.location.href);
+    href = href.replace(/\?/g, (i => m => !i++ ? m : '&')(0));
     var url = new URL(window.location.href);
 
     if (url.searchParams.get("content") != null)
