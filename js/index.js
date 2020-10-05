@@ -2,7 +2,10 @@ var language;
 
 //RÉCUPÈRE LA LANGUE
 function getLanguage() {
-    var url = new URL(window.location.href);
+    let href = decodeURIComponent(window.location.href);
+    href = href.replace(/\?/g, (i => m => !i++ ? m : '&')(0));
+    var url = new URL(href);
+        
     $.ajax({
         url: 'language/' + url.searchParams.get("language") + '.json',
         dataType: 'json',
@@ -25,7 +28,9 @@ function getLanguage() {
 
 //DÉFINI LA LANGUE
 function setLanguage(lang) {
-    var url = new URL(window.location.href);
+    let href = decodeURIComponent(window.location.href);
+    href = href.replace(/\?/g, (i => m => !i++ ? m : '&')(0));
+    var url = new URL(href);
     let localLang = url.searchParams.get("language");
 
     if (typeof lang == 'undefined' && localLang == null) {
@@ -41,7 +46,9 @@ function setLanguage(lang) {
 }
 
 function gotoPage(page) {
-    var url = new URL(window.location.href);
+    let href = decodeURIComponent(window.location.href);
+    href = href.replace(/\?/g, (i => m => !i++ ? m : '&')(0));
+    var url = new URL(href);
 
     if (typeof page == 'undefined') {
         page = "index.html";
@@ -58,7 +65,7 @@ function gotoPage(page) {
 function load(file) {
     let href = decodeURIComponent(window.location.href);
     href = href.replace(/\?/g, (i => m => !i++ ? m : '&')(0));
-    var url = new URL(window.location.href);
+    var url = new URL(href);
 
     if (url.searchParams.get("content") != null)
         file = url.searchParams.get("content") + ".html";
