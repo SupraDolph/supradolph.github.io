@@ -164,7 +164,6 @@ defaults:
           label: Home
           url: /
 
-
 sass:
   sass_dir: /assets/css
   style: compressed

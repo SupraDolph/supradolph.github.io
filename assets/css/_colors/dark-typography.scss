@@ -7,6 +7,10 @@
 */
 
 @mixin dark-scheme {
+  /* perso */
+  --suprabg-color: rgb(100, 41, 64);
+  --suprahighlight-color: rgb(195, 70, 128);
+
   /* framework */
   --main-wrapper-bg: rgb(27, 27, 30);
   --body-bg: var(--main-wrapper-bg);
@@ -20,7 +24,7 @@
   /* common color */
   --text-color: rgb(175, 176, 177);
   --text-muted-color: rgb(107, 116, 124);
-  --link-color: rgb(138, 180, 248);
+  --link-color: var(--suprahighlight-color);
   --link-underline-color: rgb(82, 108, 150);
   --main-border-color: rgb(44, 45, 45);
   --button-bg: rgb(39, 40, 43);
@@ -35,7 +39,7 @@
 
   /* Sidebar */
   --nav-cursor-color: rgb(183, 182, 182);
-  --sidebar-bg: radial-gradient(circle, #242424 0%, #1d1f27 100%);
+  --sidebar-bg: radial-gradient(circle, var(--suprabg-color) 0%, #1d1f27 100%);
 
   /* Top Bar */
   --topbar-text-color: var(--text-color);

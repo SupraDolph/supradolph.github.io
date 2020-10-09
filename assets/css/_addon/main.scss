@@ -608,6 +608,10 @@ footer {
 
 /*--- Typography ---*/
 
+h1, h2, h3, h4, h5, h6 {
+  color: var(--suprahighlight-color);
+}
+
 h1 {
   @extend %heading;
   font-size: 1.8rem;
