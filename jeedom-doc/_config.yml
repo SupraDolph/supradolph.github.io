@@ -24,8 +24,10 @@ author: SupraDolph                  # change to your full name
 
 avatar: /assets/img/avatar.png   # support internet resources
 
-github:
-  username: supradolph             # change to your github username
+github: [metadata]
+
+#github:
+#  username: supradolph             # change to your github username
 
 twitter:
   username:             # change to your twitter username

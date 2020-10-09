@@ -6,11 +6,11 @@
 * MIT Licensed
 */
 
-@import "https://supradolph.github.io/jeedom-doc/openWrt/assets/css/_addon/fonts";
-@import "https://supradolph.github.io/jeedom-doc/openWrt/_addon/module";
-@import "https://supradolph.github.io/jeedom-doc/openWrt/_addon/variables";
-@import "https://supradolph.github.io/jeedom-doc/openWrt/_colors/light-typography";
-@import "https://supradolph.github.io/jeedom-doc/openWrt/_colors/dark-typography";
+@import "_addon/fonts";
+@import "_addon/module";
+@import "_addon/variables";
+@import "_colors/light-typography";
+@import "_colors/dark-typography";
 
 @mixin set-visible($light-display, $dark-display) {
   [light-mode-invisible] {
