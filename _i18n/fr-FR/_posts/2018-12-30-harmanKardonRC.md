@@ -31,7 +31,7 @@ N/A
 
 Un rendu visuel spécifique a été élaboré afin de vous assurer la meilleure expérience possible.
 
-![](/jeedom-doc/harmanKardonRC/images/harmanKardonRCTelecommande.png)
+![](/images/harmanKardonRCTelecommande.png)
 
 ## Configuration
 
@@ -44,7 +44,7 @@ Depuis le menu de gestion, ajoutez un widget.
 *   **Type de matériel** : Sélectionné le type de votre matériel (AVR : Amplificateur, ou BDS : Home Cinéma)
 *   **IP de l'amplificateur** : Adresse IP de votre matériel. Elle doit être fixe ou réservée sur votre serveur DHCP
 
-![](/jeedom-doc/harmanKardonRC/images/harmanKardonRCConfigMain.png)
+![](/images/harmanKardonRCConfigMain.png)
 
 ### Ajout des commandes
 
@@ -65,7 +65,7 @@ Les commandes de base sont automatiquement ajoutées excepté les sources qui d�
 *   Source C
 *   Source D
 
-Le nom de la commande est affichée sur la télécommande du dashboard. La source doit correspondre à la source de votre amplificateur (normalement affichée dans le menu de celui-ci) ![](/jeedom-doc/harmanKardonRC/images/harmanKardonRCConfigCommands.png)
+Le nom de la commande est affichée sur la télécommande du dashboard. La source doit correspondre à la source de votre amplificateur (normalement affichée dans le menu de celui-ci) ![](/images/harmanKardonRCConfigCommands.png)
 
 ## Bugs connus
 
