@@ -7,8 +7,6 @@ date: 2020-09-26 00:00:00 +0100
 toc: true
 pin: true
 lang: fr-FR
-redirect_from:
-  - /posts/openWrt_fr-FR
 ---
 
 ## Description

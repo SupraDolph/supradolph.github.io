@@ -7,8 +7,6 @@ date: 2017-11-09 00:00:00 +0100
 toc: true
 pin: true
 lang: fr-FR
-redirect_from:
-  - /posts/thermoAlternateView_fr-FR
 ---
 
 ## Description
