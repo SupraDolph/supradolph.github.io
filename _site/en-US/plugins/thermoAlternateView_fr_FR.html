@@ -1,0 +1,202 @@
+<h1>thermoAlternateView</h1>
+<div class="row">
+    <div class="col-md-3">
+        <aside class="sidebar">
+            <ul id="toc"></ul>
+        </aside>
+    </div>
+    <div class="col-md-9">
+        <h2>Description</h2>
+        <p>Ce plugin est une alternative d'affichage au widget standard du plugin Thermostat. Il ne s'agit pas d'un thermostat autonome et n'est pas compatible avec d'autre thermostats.</p>
+        <h2>Prérequis et dépendances</h2>
+        <p>Le plugin <strong>thermostat</strong> doit être configuré avec au moins un thermostat actif.</p>
+        <p>Le plugin <strong>agenda</strong> est facultatif mais est nécessaire afin d'afficher l'heure de prochaine consigne.
+        </p>
+        <h3>Configuration des modes du plugin Thermostat
+        </h3>
+        <p>Le sélecteur de modes utilise des icônes qui sont associés au nom du mode du thermostat. Pour que le visuel soit optimal (icônes), le thermostat doit comporter des modes ayant pour nom <strong>Jour</strong>,
+            <strong>Nuit</strong>, <strong>Confort</strong>, <strong>Eco</strong>, <strong>Vacances</strong>,
+            <strong>Vacance</strong>, <strong>Hors gel</strong>, <strong>Confort -2</strong> et/ou <strong>Absent</strong>.
+        </p>
+        <p><img src="images/thermoAlternateViewConfigModes.png">
+        </p>
+        <h2>Rendu visuel</h2>
+        <h3>Dark</h3>
+        <p><img src="images/thermoAlternateViewDark.png"></p>
+        <h3>Light</h3>
+        <p><img src="images/thermoAlternateViewLight.png"></p>
+        <h3>DarkAtmo</h3>
+        <p><img src="images/thermoAlternateViewDarkatmo.png"></p>
+        <h3>SimpleLight</h3>
+        <p><img src="images/thermoAlternateViewSimplelight.png"></p>
+        <p>Pensez à configurer les couleurs des modes chauffage, climatisation et suspendu.</p>
+        <h3>SimpleDark</h3>
+        <p><img src="images/thermoAlternateViewSimpledark.png"></p>
+        <p>Pensez à configurer les couleurs des modes chauffage, climatisation et suspendu.</p>
+        <h2>Configuration</h2>
+        <h3>Ajout d'un widget</h3>
+        <p>Depuis le menu de gestion, ajoutez un widget.
+            <img src="images/thermoAlternateViewConfigMain.png">
+        </p>
+        <h3>Configuration générale du widget</h3>
+        <ul>
+            <li><strong>Nom de l'équipement thermoAlternateView</strong> : Il s'agit du nom affiché en haut du widget</li>
+            <li><strong>Objet parent</strong> : Permet de classer le widget dans Jeedom</li>
+            <li><strong>Catégorie</strong> : Permet de catégoriser le widget dans Jeedom</li>
+            <li><strong>Activer/ Visible</strong> : Permet d'activer/ afficher le widget dans Jeedom</li>
+            <li><strong>Thermostat</strong> : Permet de sélectionner le thermostat dont le widget va remplacer le rendu</li>
+            <li><strong>Template</strong> : Permet de choisir le rendu visuel du widget</li>
+        </ul>
+        <img src="images/thermoAlternateViewConfigEquipement.png">
+        <h3>Configuration des options du widget</h3>
+        <ul>
+            <li><strong>Unité</strong> : Unité de température affichée sur le widget (° par défaut)</li>
+            <li><strong>Utiliser la couleur de fond du widget</strong> : Permet d'utiliser la couleur de widget Jeedom plutôt que celle du template</li>
+            <li><strong>Température extérieure visible</strong> : Permet d'afficher la température extérieure (configurée dans le thermostat)</li>
+            <li><strong>Hygrométrie visible</strong> : Permet d'afficher l'hygrométrie (configurée dans le thermostat)</li>
+            <li><strong>Puissance visible</strong> : Permet d'afficher la puissance (configurée dans le thermostat)</li>
+            <li><strong>Masquer les modes</strong> : Permet de ne pas afficher le sélecteur de modes</li>
+            <li><strong>Afficher la prochaine consigne (agenda)</strong> : Affiche l'heure de la prochaine consigne de chauffage (expérimental). Cette fonctionnalité nécessite le plugin agenda.</li>
+            <li><strong>Afficher le nom de l'évènement (agenda)</strong> : Affiche le nom du prochain évènement. Cette fonctionnalité nécessite le plugin agenda.</li>
+            <li><strong>Couleur icône mode chauffage</strong> : Permet de modifier la couleur de l'icône de chauffe</li>
+            <li><strong>Couleur icône mode climatisation</strong> : Permet de modifier la couleur de l'icône de refroidissement
+            </li>
+            <li><strong>Couleur icône mode suspendu</strong> : Permet de modifier la couleur de l'icône du mode suspendu
+            </li>
+            <li><strong>Couleur icône verrouillé</strong> : Permet de modifier la couleur de l'icône de verrouillage</li>
+        </ul>
+        <img src="images/thermoAlternateViewConfigOptions.png">
+        <h2>Bugs connus</h2>
+        <ol>
+            <li>Après chaque mise à jour merci de forcer la réactualisation du cache du navigateur</li>
+            <li>Le rafraîchissement de la prochaine consigne ne fonctionne pas toujours</li>
+        </ol>
+        <h2>Changelog</h2>
+        <p class="text-primary">V2.9</p>
+        <ul>
+            <li>SimpleLight/Dark : La température interne n'était pas mise à jour</li>
+        </ul>
+        <p class="text-primary">V2.8</p>
+        <ul>
+            <li>Revue de l'ordre des modes</li>
+            <li>Pour SimpleLight/Dark : Affiche la température quand le thermostat est éteint</li>
+        </ul>
+        <p class="text-primary">V2.7</p>
+        <ul>
+            <li>Ajout des objets du mode design</li>
+            <li>Bugfixes pour SimpleLight et SimpleDark</li>
+        </ul>
+        <p class="text-primary">V2.6</p>
+        <ul>
+            <li>Correction % humidité</li>
+            <li>Ajout des template SimpleLight et SimpleDark</li>
+        </ul>
+        <p class="text-primary">V2.5</p>
+        <ul>
+            <li>Bugfixes</li>
+            <li>Revue du chargement des SVG pour éviter l'image résiduelle</li>
+        </ul>
+        <p class="text-primary">V2.4</p>
+        <ul>
+            <li>Compatibilité Jeedom v4</li>
+            <li>Compatibilité php 7.3</li>
+        </ul>
+        <p class="text-primary">V2.3</p>
+        <ul>
+            <li>ATTENTION : Il faut vider le cache du navigateur et revalider les nouveaux paramètres dans la configuration !
+            </li>
+            <li>Ajout du template darkatmo</li>
+            <li>Corrections esthétiques</li>
+        </ul>
+        <p class="text-primary">V2.2</p>
+        <ul>
+            <li>Ajout de la puissance</li>
+            <li>Bugfix vue mobile template Dark</li>
+        </ul>
+        <p class="text-primary">V2.1</p>
+
+        <ul>
+            <li>Bugfix</li>
+        </ul>
+        <p class="text-primary">V2.0</p>
+        <ul>
+            <li>Optimisation de l'espace</li>
+            <li>Traduction en_US</li>
+            <li>Ajout de l'hygrométrie</li>
+        </ul>
+        <p class="text-primary">V1.12</p>
+        <ul>
+            <li>Correction regression agendas inactifs</li>
+            <li>Ajout du nom de l'évènement</li>
+        </ul>
+        <p class="text-primary">V1.11</p>
+
+        <ul>
+            <li>Correction du problème de taille de widget à l'initialisation</li>
+            <li>Correction du problème d'agendas inactifs qui étaient pris en comptes</li>
+        </ul>
+        <p class="text-primary">V1.10</p>
+
+        <ul>
+            <li>Ajout de la documentation</li>
+            <li>Correction de la régression sur la catégorie</li>
+        </ul>
+        <p class="text-primary">V1.9</p>
+
+        <ul>
+            <li>Affichage des statistiques en mode dialogue</li>
+            <li>Ajout des catégories (ex: chauffage) dans la configuration du widget</li>
+        </ul>
+        <p class="text-primary">V1.8</p>
+        </ul>
+        <ul>
+            <li>Mettre un icon ventilateur en mode froid et gestion de sa couleur</li>
+            <li>Ajout des modes Hors Gel et Confort -2</li>
+            <li>En backoffice, factorisation des images pour les différents visuels</li>
+        </ul>
+        <p class="text-primary">V1.7</p>
+        <ul>
+            <li>Choix de l'unité (°, %)</li>
+            <li>Afficher le prochain changement d'agenda</li>
+            <li>Gestion du mode "vacance"</li>
+        </ul>
+        <p class="text-primary">V1.6</p>
+        <ul>
+            <li>Ajouter le lien vers les historiques des commandes de température</li>
+            <li>Couleur du cadenas verrouillé</li>
+            <li>Gestion du mode suspendu</li>
+        </ul>
+        <p class="text-primary">V1.5</p>
+        <ul>
+            <li>Changer la couleur de l'icône sur le market : Identité visuelle requise par développeur</li>
+            <li>Ajouter des icons pour d'autres noms de mode : à jour et nuit</li>
+        </ul>
+        <p class="text-primary">V1.4</p>
+        </ul>
+        <ul>
+            <li>Prise en charge de la configuration avancée d'affichage du Widget</li>
+            <li>Possibilité de masquer les modes</li>
+            <li>Possibilité de changer la couleur de la flamme de chauffe</li>
+        </ul>
+        <p class="text-primary">V1.3</p>
+        <ul>
+            <li>Correction du bug sur le bouton de verrouillage du template dark</li>
+        </ul>
+        <p class="text-primary">V1.2</p>
+        <ul>
+            <li>Factorisation du code</li>
+            <li>Ajout du plugin Dark</li>
+            <li>Ajout de la température extérieure</li>
+        </ul>
+        <p class="text-primary">V1.1</p>
+        <ul>
+            <li>Correction de bug</li>
+            <li>Ajout de la vue mobile</li>
+            <li>Ajout du lien vers les statistiques</li>
+        </ul>
+        <p class="text-primary">V1.0</p>
+        <ul>
+            <li>Version initiale</li>
+        </ul>
+    </div>
+</div>
