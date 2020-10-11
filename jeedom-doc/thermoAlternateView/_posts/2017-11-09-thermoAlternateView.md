@@ -8,7 +8,7 @@ toc: true
 pin: true
 lang: fr-FR
 redirect_from:
-  - /tabs/thermoAlternateView_fr-FR
+  - /posts/thermoAlternateView_fr-FR
 ---
 
 ## Description

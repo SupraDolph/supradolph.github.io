@@ -8,7 +8,7 @@ toc: true
 pin: true
 lang: fr-FR
 redirect_from:
-  - /tabs/harmanKardonRC_fr-FR
+  - /posts/harmanKardonRC_fr-FR
 ---
 
 ## Description
