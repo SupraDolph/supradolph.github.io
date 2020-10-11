@@ -7,6 +7,8 @@ date: 2019-11-12 00:00:00 +0100
 toc: true
 pin: true
 lang: fr-FR
+redirect_from:
+  - /tabs/miwifiRouter_fr-FR
 ---
 
 ## Description

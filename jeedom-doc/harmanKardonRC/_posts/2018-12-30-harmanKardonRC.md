@@ -7,6 +7,8 @@ date: 2018-12-30 00:00:00 +0100
 toc: true
 pin: true
 lang: fr-FR
+redirect_from:
+  - /tabs/harmanKardonRC_fr-FR
 ---
 
 ## Description
