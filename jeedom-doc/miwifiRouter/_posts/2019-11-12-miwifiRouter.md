@@ -29,19 +29,19 @@ Renseigner l'adresse IP du routeur ainsi que le mot de passe administrateur.
 
 Sélectionner la fréquence d'actualisation des informations (il est possible de décocher les cron non concernés).
 
-![](/images/miwifiRouterMainConfig.png)
+![](/jeedom-doc/{{ page.title }}/images/miwifiRouterMainConfig.png)
 
 ### Ajout d'un widget
 
 Depuis le menu de gestion, ajoutez un widget. Sélectionnez l'équipement désiré (il doit être connecté sur votre routeur).
 
-![](/images/miwifiRouterAddEquipment.png)
+![](/jeedom-doc/{{ page.title }}/images/miwifiRouterAddEquipment.png)
 
 ### Configuration générale du widget
 
 Le nom de l'équipement et l'adresse mac sont récupérés automatiquement.
 
-![](/images/miwifiRouterConfigEquipment.png)
+![](/jeedom-doc/{{ page.title }}/images/miwifiRouterConfigEquipment.png)
 
 Sauvegarder pour créer les commandes associées
 
@@ -49,7 +49,7 @@ Sauvegarder pour créer les commandes associées
 
 Les commandes sont créées automatiquement lors de la sauvegarde :
 
-![](/images/miwifiRouterConfigCommands.png)
+![](/jeedom-doc/{{ page.title }}/images/miwifiRouterConfigCommands.png)
 
 ## Bugs connus
 

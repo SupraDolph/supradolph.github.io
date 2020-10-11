@@ -8,7 +8,6 @@
 -
   name: "Home"
   icon: "fas fa-home"
-  path: index2
 # -
 #   name: Plugins
 #   icon: "fas fa-stream"

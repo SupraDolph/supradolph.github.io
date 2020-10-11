@@ -25,7 +25,7 @@
 {% for i in (0..last_index) %}
   {% assign post = site.posts[i] %}
 
-  {% if post.url == page.url %}
+  {% if post.url == page.url or post.lang != page.lang %}
     {% continue %}
   {% endif %}
 

@@ -32,7 +32,7 @@ N/A
 
 A specific visual rendering has been developed to ensure the best possible experience.
 
-![](images/harmanKardonRCTelecommande.png)
+![](/jeedom-doc/{{ page.title }}/images/harmanKardonRCTelecommande.png)
 
 ## Configuration
 
@@ -45,7 +45,7 @@ From the management menu, add a widget.
 *   Equipment type: Select the type of your equipment (AVR: Amplifier, or BDS: Home Cinema)
 *   Amplifier IP**: IP address of your equipment. It must be fixed or reserved on your DHCP server
 
-![](images/harmanKardonRCConfigMain.png)
+![](/jeedom-doc/{{ page.title }}/images/harmanKardonRCConfigMain.png)
 
 ### Adding commands
 
@@ -66,7 +66,7 @@ Basic commands are automatically added except for sources that depend on your eq
 *   Source C
 *   Source D
 
-The name of the command is displayed on the dashboard remote control. The source must match the source of your amplifier (normally displayed in the amplifier menu) ![](images/harmanKardonRCConfigCommands.png)
+The name of the command is displayed on the dashboard remote control. The source must match the source of your amplifier (normally displayed in the amplifier menu) ![](/jeedom-doc/{{ page.title }}/images/harmanKardonRCConfigCommands.png)
 
 ## Known bugs
 

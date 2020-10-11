@@ -24,24 +24,16 @@ author: SupraDolph                  # change to your full name
 
 avatar: /assets/img/avatar.png   # support internet resources
 
-github: [metadata]
+# github: [metadata]
 
-#github:
-#  username: supradolph             # change to your github username
-
-twitter:
-  username:             # change to your twitter username
+github:
+  username: supradolph             # change to your github username
 
 social:
   name: SupraDolph                  # it will shows as the copyright owner in Footer
   email: supradolph@hotmail.com            # change to your email address
   links:
-    # The first element serves as the copyright owner's link
-    #- https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/supradolph       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/supradolph
 
 #google_site_verification: google_meta_tag_verification # change to your verification string
 

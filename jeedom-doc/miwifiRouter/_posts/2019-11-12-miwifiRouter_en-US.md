@@ -29,19 +29,19 @@ Please type the IP address of your local router and the administrator password.
 
 Please sélect the cron frequency.
 
-![](images/miwifiRouterMainConfig.png)
+![](/jeedom-doc/{{ page.title }}/images/miwifiRouterMainConfig.png)
 
 ### Adding a widget
 
 From the management menu, add a widget. Select the desired equipment (it must be connected on your router).
 
-![](images/miwifiRouterAddEquipment.png)
+![](/jeedom-doc/{{ page.title }}/images/miwifiRouterAddEquipment.png)
 
 ### General widget configuration
 
 Tha name and the mac address are set automatically.
 
-![](images/miwifiRouterConfigEquipment.png)
+![](/jeedom-doc/{{ page.title }}/images/miwifiRouterConfigEquipment.png)
 
 Save to create the commands
 
@@ -49,7 +49,7 @@ Save to create the commands
 
 Commands are automatically created:
 
-![](images/miwifiRouterConfigCommands.png)
+![](/jeedom-doc/{{ page.title }}/images/miwifiRouterConfigCommands.png)
 
 ## Known bugs
 

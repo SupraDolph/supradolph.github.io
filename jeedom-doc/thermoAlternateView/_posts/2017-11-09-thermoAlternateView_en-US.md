@@ -23,31 +23,31 @@ The **agenda** plugin is optional but is necessary to display the next setpoint 
 
 The mode selector uses icons that are associated with the thermostat mode label. For an optimal display (icons), the thermostat must include modes named **Day**, **Night**, **Comfort**, **Eco**, **Holiday**, **no frost**, **Comfort -2** and/or **Absent**.
 
-![](images/thermoAlternateViewConfigModes.png)
+![](/jeedom-doc/{{ page.title }}/images/thermoAlternateViewConfigModes.png)
 
 ## Display
 
 ### Dark
 
-![](images/thermoAlternateViewDark.png)
+![](/jeedom-doc/{{ page.title }}/images/thermoAlternateViewDark.png)
 
 ### Light
 
-![](images/thermoAlternateViewLight.png)
+![](/jeedom-doc/{{ page.title }}/images/thermoAlternateViewLight.png)
 
 ### DarkAtmo
 
-![](images/thermoAlternateViewDarkatmo.png)
+![](/jeedom-doc/{{ page.title }}/images/thermoAlternateViewDarkatmo.png)
 
 ### SimpleLight
 
-![](images/thermoAlternateViewSimplelight.png)
+![](/jeedom-doc/{{ page.title }}/images/thermoAlternateViewSimplelight.png)
 
 Please change the heating, cooling and suspended colors.
 
 ### SimpleDark
 
-![](images/thermoAlternateViewSimpledark.png)
+![](/jeedom-doc/{{ page.title }}/images/thermoAlternateViewSimpledark.png)
 
 Please change the heating, cooling and suspended colors.
 
@@ -55,7 +55,7 @@ Please change the heating, cooling and suspended colors.
 
 ### Adding a widget
 
-From the management menu, add a widget. ![](images/thermoAlternateViewConfigMain.png)
+From the management menu, add a widget. ![](/jeedom-doc/{{ page.title }}/images/thermoAlternateViewConfigMain.png)
 
 ### General widget configuration
 
@@ -66,7 +66,7 @@ From the management menu, add a widget. ![](images/thermoAlternateViewConfigMain
 *   **Thermostat** : Allows you to select the thermostat whose widget will replace the rendering
 *   **Template** : Allows you to choose the visual rendering of the widget
 
-![](images/thermoAlternateViewConfigEquipement.png)
+![](/jeedom-doc/{{ page.title }}/images/thermoAlternateViewConfigEquipement.png)
 
 ### Configuring widget options
 
@@ -83,7 +83,7 @@ From the management menu, add a widget. ![](images/thermoAlternateViewConfigMain
 *   **Suspended icon color** : Allows you to change the color of the suspended mode icon
 *   **Lock icon color** : Allows you to change the color of the lock icon
 
-![](images/thermoAlternateViewConfigOptions.png)
+![](/jeedom-doc/{{ page.title }}/images/thermoAlternateViewConfigOptions.png)
 
 ## Known bugs
 
