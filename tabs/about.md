@@ -1,6 +1,7 @@
 ---
 title: About
-plugins:
+lang: fr-FR
+redirect_from:
   - tabs/about_en-US
 # The About page
 # v2.0
