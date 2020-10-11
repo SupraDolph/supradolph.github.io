@@ -19,7 +19,6 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-seo-tag", "~> 2.6.1"
   gem 'jekyll-archives'
-  gem 'jekyll-multiple-languages-plugin'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

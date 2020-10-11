@@ -38,6 +38,23 @@
     {% endif %}
     </div>
 
+
+    <ul>
+    {% assign currentLang = "_" | append: page.lang %} 
+    {% for lang in site.languages %}
+      {% if lang != page.lang %}
+        {% if lang == site.default-lang %}
+          {% assign i18nUrl = page.url | remove_first: currentLang  %}
+        {% else %}
+          {% assign i18nUrl = page.url | remove_first: currentLang | split: "" | reverse | join: "" | remove_first: "/" | split: "" | reverse | join: "" | append: "_" | append: lang %}
+        {% endif %}
+        <li>
+            <a href="{{ i18nUrl }}">{{ lang }}</a>
+        </li>
+      {% endif %} 
+    {% endfor %}
+    </ul>
+
     <i id="search-trigger" class="fas fa-search fa-fw"></i>
     <span id="search-wrapper" class="align-items-center">
       <i class="fas fa-search fa-fw"></i>

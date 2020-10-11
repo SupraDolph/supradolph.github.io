@@ -6,7 +6,7 @@
 
 
 -
-  name: tabs.home
+  name: "Home"
   icon: "fas fa-home"
   path: index2
 # -

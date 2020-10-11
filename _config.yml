@@ -52,15 +52,15 @@ social:
 # change below value to '/projectname'.
 #baseurl: '/jeedom-doc/openWrt'
 baseurl: ''
-
-
-# Plugins
-plugins:
-  - jekyll-multiple-languages-plugin
-
 languages: ["fr-FR", "en-US"]
-exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
-
+default-lang: "fr-FR"
+t:
+  fr-FR:
+    fr-FR:  "Français"
+    en-US:  "Anglais"
+  en-US:
+    fr-FR:  "French"
+    en-US:  "English"
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Europe/Paris
