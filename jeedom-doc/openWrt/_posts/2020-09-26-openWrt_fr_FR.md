@@ -6,7 +6,7 @@ date: 2020-09-26 00:00:00 +0100
 # tags: []
 toc: true
 pin: true
-lang: en-US
+lang: fr_FR
 ---
 
 ## Description
@@ -29,9 +29,9 @@ Ce plugin n'a pas de rendu visuel spécifique, il est basé sur le standard de J
 
 ### Configuration du plugin
 
-Renseigner l'adresse IP du routeur ainsi que le compte et mot de passe administrateur (le plugin utilise une connexion SSH).
+Renseigner l'`adresse IP` du routeur ainsi que le `compte` et `mot de passe` administrateur (le plugin utilise une connexion SSH).
 
-Sélectionner la fréquence d'actualisation des informations (il est possible de décocher les cron non concernés).
+Sélectionner la `fréquence d'actualisation` des informations (il est possible de décocher les cron non concernés).
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtMainConfig.png)
 
@@ -41,7 +41,7 @@ Sélectionner la fréquence d'actualisation des informations (il est possible de
 
 ### Widget Router
 
-Lors de la sauvegarde de la configuration générale, le widget _Routeur_ est créé automatiquement.
+Lors de la sauvegarde de la configuration générale, le widget `Routeur` est créé automatiquement.
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtConfigRouter.png)
 
@@ -49,13 +49,13 @@ Lors de la sauvegarde de la configuration générale, le widget _Routeur_ est cr
 
 ### Ajout d'un équipement réseau
 
-Depuis le menu de gestion, ajoutez un widget. Sélectionnez l'équipement désiré (il doit être connecté sur votre routeur i.e. avec un bail DHCP actif).
+Depuis le menu de gestion, `ajoutez un widget`. Sélectionnez l'équipement désiré (il doit être connecté sur votre routeur i.e. avec un bail DHCP actif).
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtAddEquipment.png)
 
 ### Configuration générale du widget
 
-Le nom de l'équipement et l'adresse mac sont récupérés automatiquement.
+Le `nom de l'équipement` et l'`adresse mac` sont récupérés automatiquement.
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtConfigEquipment.png)
 

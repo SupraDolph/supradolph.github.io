@@ -1,9 +1,9 @@
 ---
 title: Archives
 type: archives
-lang: fr-FR
+lang: fr_FR
 redirect_from:
-  - /tabs/archives_en-US
+  - /tabs/archives_en_US
 # The Archives of posts.
 # v2.0
 

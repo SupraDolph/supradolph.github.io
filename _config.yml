@@ -39,15 +39,15 @@ plugins:
 # change below value to '/projectname'.
 #baseurl: '/jeedom-doc/openWrt'
 baseurl: ''
-languages: ["fr-FR", "en-US"]
-default-lang: "fr-FR"
+languages: ["fr_FR", "en_US"]
+default-lang: "fr_FR"
 t:
-  fr-FR:
-    fr-FR:  "Français"
-    en-US:  "Anglais"
-  en-US:
-    fr-FR:  "French"
-    en-US:  "English"
+  fr_FR:
+    fr_FR:  "Français"
+    en_US:  "Anglais"
+  en_US:
+    fr_FR:  "French"
+    en_US:  "English"
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Europe/Paris

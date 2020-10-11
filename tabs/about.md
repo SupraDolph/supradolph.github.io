@@ -1,8 +1,8 @@
 ---
 title: About
-lang: fr-FR
+lang: fr_FR
 redirect_from:
-  - tabs/about_en-US
+  - tabs/about_en_US
 # The About page
 # v2.0
 
