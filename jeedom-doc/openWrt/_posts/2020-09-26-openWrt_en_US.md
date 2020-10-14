@@ -9,70 +9,70 @@ pin: true
 lang: en_US
 ---
 
-## Description
+## {{ site.t.en_US.Description }}
 
-Ce plugin permet de lister les équipements de votre routeur openWrt
+This plugin allows you to list the equipment of your openWrt router.
 
-## Prérequis et dépendances
+## {{ site.t.en_US.Prerequis_et_dependances }}
 
-Avoir un routeur sous [openWrt](https://openwrt.org/).
+Have a router running with [openWrt](https://openwrt.org/).
 
-## Rendu visuel
+## {{ site.t.en_US.Rendu_visuel }}
 
-Ce plugin n'a pas de rendu visuel spécifique, il est basé sur le standard de Jeedom.
+This plugin has no specific visual rendering, it is based on the Jeedom standard.
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtRouterWidget.png)
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtEquipmentWidget.png)
 
-## Configuration Générale
+## {{ site.t.en_US.Configuration_Generale }}
 
-### Configuration du plugin
+### {{ site.t.en_US.Configuration_du_plugin }}
 
-Renseigner l'adresse IP du routeur ainsi que le compte et mot de passe administrateur (le plugin utilise une connexion SSH).
+Fill in the router's `IP address` as well as the administrator `account` and `password` (the plugin uses an SSH connection).
 
-Sélectionner la fréquence d'actualisation des informations (il est possible de décocher les cron non concernés).
+Select the `frequency` of data update (it is possible to uncheck the cron not concerned).
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtMainConfig.png)
 
-## Configuration des équipements
+## {{ site.t.en_US.Configuration_des_equipements }}
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtConfig.png)
 
 ### Widget Router
 
-Lors de la sauvegarde de la configuration générale, le widget _Routeur_ est créé automatiquement.
+When saving the general configuration, the `Router` widget is created automatically.
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtConfigRouter.png)
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtConfigCmdRouter.png)
 
-### Ajout d'un équipement réseau
+### Adding network equipment
 
-Depuis le menu de gestion, ajoutez un widget. Sélectionnez l'équipement désiré (il doit être connecté sur votre routeur i.e. avec un bail DHCP actif).
+From the management menu, `add a widget`. Select the desired equipment (it must be connected to your router i.e. with an active DHCP lease).
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtAddEquipment.png)
 
-### Configuration générale du widget
+### {{ site.t.en_US.Configuration_generale_du_widget }}
 
-Le nom de l'équipement et l'adresse mac sont récupérés automatiquement.
+The `equipment name` and `mac address `are retrieved automatically.
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtConfigEquipment.png)
 
-Sauvegarder pour créer les commandes associées.
+Save to create the associated commands.
 
-### Ajout des commandes
+### {{ site.t.en_US.Ajout_des_commandes }}
 
-Les commandes sont créées automatiquement lors de la sauvegarde :
+Commands are created automatically when saving :
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtConfigCmdEquipment.png)
 
-## Bugs connus
+## {{ site.t.en_US.Bugs_connus }}
 
 1.  N/A
 
-## Changelog
+## {{ site.t.en_US.Changelog }}
 
 V1.0
 
-*   Version initiale
+* Initial version

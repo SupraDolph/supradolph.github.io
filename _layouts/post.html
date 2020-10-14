@@ -133,7 +133,8 @@ layout: default
 
     {% include related-posts.html %}
 
-    {% include post-nav.html %}
+    <!-- FHU: Ne filtre pas la langue -->
+    <!-- {% include post-nav.html %} -->
 
     {% if site.disqus.comments and page.comments %}
       {% include disqus.html %}

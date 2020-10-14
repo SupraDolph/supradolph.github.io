@@ -18,7 +18,6 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-redirect-from"
   gem "jekyll-seo-tag", "~> 2.6.1"
-  gem 'jekyll-archives'
   gem 'jekyll-redirect-from'
 
 end

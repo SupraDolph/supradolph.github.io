@@ -9,15 +9,15 @@ pin: true
 lang: fr_FR
 ---
 
-## Description
+## {{ site.t.fr_FR.Description }}
 
 Ce plugin permet de lister les équipements de votre routeur openWrt
 
-## Prérequis et dépendances
+## {{ site.t.fr_FR.Prerequis_et_dependances }}
 
 Avoir un routeur sous [openWrt](https://openwrt.org/).
 
-## Rendu visuel
+## {{ site.t.fr_FR.Rendu_visuel }}
 
 Ce plugin n'a pas de rendu visuel spécifique, il est basé sur le standard de Jeedom.
 
@@ -25,9 +25,9 @@ Ce plugin n'a pas de rendu visuel spécifique, il est basé sur le standard de J
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtEquipmentWidget.png)
 
-## Configuration Générale
+## {{ site.t.fr_FR.Configuration_Generale }}
 
-### Configuration du plugin
+### {{ site.t.fr_FR.Configuration_du_plugin }}
 
 Renseigner l'`adresse IP` du routeur ainsi que le `compte` et `mot de passe` administrateur (le plugin utilise une connexion SSH).
 
@@ -35,7 +35,7 @@ Sélectionner la `fréquence d'actualisation` des informations (il est possible 
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtMainConfig.png)
 
-## Configuration des équipements
+## {{ site.t.fr_FR.Configuration_des_equipements }}
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtConfig.png)
 
@@ -53,7 +53,7 @@ Depuis le menu de gestion, `ajoutez un widget`. Sélectionnez l'équipement dés
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtAddEquipment.png)
 
-### Configuration générale du widget
+### {{ site.t.fr_FR.Configuration_generale_du_widget }}
 
 Le `nom de l'équipement` et l'`adresse mac` sont récupérés automatiquement.
 
@@ -61,17 +61,17 @@ Le `nom de l'équipement` et l'`adresse mac` sont récupérés automatiquement.
 
 Sauvegarder pour créer les commandes associées.
 
-### Ajout des commandes
+### {{ site.t.fr_FR.Ajout_des_commandes }}
 
 Les commandes sont créées automatiquement lors de la sauvegarde :
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtConfigCmdEquipment.png)
 
-## Bugs connus
+## {{ site.t.fr_FR.Bugs_connus }}
 
 1.  N/A
 
-## Changelog
+## {{ site.t.fr_FR.Changelog }}
 
 V1.0
 

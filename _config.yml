@@ -45,9 +45,29 @@ t:
   fr_FR:
     fr_FR:  "Français"
     en_US:  "Anglais"
+    Description: "Description"
+    Prerequis_et_dependances: "Prérequis et dépendances"
+    Rendu_visuel: "Rendu visuel"
+    Configuration_Generale: "Configuration Générale"
+    Configuration_du_plugin: "Configuration du plugin"
+    Configuration_des_equipements: "Configuration des équipements"
+    Configuration_generale_du_widget: "Configuration générale du widget"
+    Ajout_des_commandes: "Ajout des commandes"
+    Bugs_connus: "Bugs connus"
+    Changelog: "Changelog"
   en_US:
     fr_FR:  "French"
     en_US:  "English"
+    Description: "Description"
+    Prerequis_et_dependances: "Prerequisites and dependencies"
+    Rendu_visuel: "Rendering"
+    Configuration_Generale: "General Configuration"
+    Configuration_du_plugin: "Plugin configuration"
+    Configuration_des_equipements: "Equipment configuration"
+    Configuration_generale_du_widget: "General widget configuration"
+    Ajout_des_commandes: "Adding commands"
+    Bugs_connus: "Known issues"
+    Changelog: "Changelog"
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Europe/Paris
@@ -169,23 +189,6 @@ defaults:
         -
           label: Home
           url: /
-
-category_archive:
-  type: jekyll-archives
-  path: /categories/
-tag_archive:
-  type: jekyll-archives
-  path: /tags/
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
 
 sass:
   sass_dir: /assets/css
