@@ -1,5 +1,5 @@
 ---
-title: Archives
+title: Chronologie
 type: archives
 lang: fr_FR
 redirect_from:

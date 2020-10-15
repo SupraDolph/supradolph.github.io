@@ -6,7 +6,7 @@
 
 
 -
-  name: "Home"
+  name: "Accueil"
   icon: "fas fa-home"
 # -
 #   name: Plugins
@@ -19,12 +19,12 @@
 #   path: tabs
 #   url: tags
 -
-  name: "Archives"
+  name: "Chronologie"
   path: tabs
   url: archives
   icon: "fas fa-archive"
 -
-  name: "About"
+  name: "Don et à propos"
   icon: "fas fa-info"
   path: tabs
   url: about
