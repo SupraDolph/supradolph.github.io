@@ -47,6 +47,8 @@ Lors de la sauvegarde de la configuration générale, le widget `Routeur` est cr
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtConfigCmdRouter.png)
 
+> L'information `température` a été testée sur une architecture MediaTek MT7621. Le bon fonctionnement est à confirmer sur d'autres plateformes.
+
 ### Ajout d'un équipement réseau
 
 Depuis le menu de gestion, `ajoutez un widget`. Sélectionnez l'équipement désiré (il doit être connecté sur votre routeur i.e. avec un bail DHCP actif).
@@ -75,7 +77,8 @@ Les commandes sont créées automatiquement lors de la sauvegarde :
 
 V2.0
 
-*   Refactorisation du code et ajout de la température sur le router
+*   Refactorisation du code et ajout de la température sur le routeur
+> L'information `température` a été testée sur une architecture MediaTek MT7621. Le bon fonctionnement est à confirmer sur d'autres plateformes.
 
 V1.0
 
