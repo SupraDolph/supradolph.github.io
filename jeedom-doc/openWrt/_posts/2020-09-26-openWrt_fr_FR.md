@@ -77,6 +77,7 @@ Les commandes sont créées automatiquement lors de la sauvegarde :
 
 V2.0
 
+*   Prise en compte du statut STALE de la table ARP en tant que up et non down
 *   Refactorisation du code et ajout de la température sur le routeur
 > L'information `température` a été testée sur une architecture MediaTek MT7621. Le bon fonctionnement est à confirmer sur d'autres plateformes.
 

@@ -75,6 +75,7 @@ Commands are created automatically when saving :
 
 V2.0
 
+*   Make STALE ARP status as up instead of down
 *   Code refactoring, new thermal information on the router
 
 V1.0
