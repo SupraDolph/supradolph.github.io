@@ -73,6 +73,10 @@ Commands are created automatically when saving :
 
 ## {{ site.t.en_US.Changelog }}
 
+V2.0
+
+*   Code refactoring, new thermal information on the router
+
 V1.0
 
 * Initial version

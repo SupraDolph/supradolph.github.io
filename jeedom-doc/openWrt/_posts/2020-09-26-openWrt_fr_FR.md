@@ -73,6 +73,10 @@ Les commandes sont créées automatiquement lors de la sauvegarde :
 
 ## {{ site.t.fr_FR.Changelog }}
 
+V2.0
+
+*   Refactorisation du code et ajout de la température sur le router
+
 V1.0
 
 *   Version initiale
