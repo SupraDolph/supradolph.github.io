@@ -47,6 +47,8 @@ Lors de la sauvegarde de la configuration générale, le widget `Routeur` est cr
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtConfigCmdRouter.png)
 
+> Le port SSH par défaut sera utilisé s'il n'a pas été renseigné (22)
+
 > L'information `température` a été testée sur une architecture MediaTek MT7621. Le bon fonctionnement est à confirmer sur d'autres plateformes.
 
 ### Ajout d'un équipement réseau
@@ -74,6 +76,13 @@ Les commandes sont créées automatiquement lors de la sauvegarde :
 1.  N/A
 
 ## {{ site.t.fr_FR.Changelog }}
+
+V2.2
+
+*   Ajout du choix du port SSH dans la configuration
+*   Refonte de l'authentification (supprime une connexion par cron)
+*   Il n'est plus possible d'ajouter un équipement réseau déjà présent dans les équipements Jeedom
+*   Ajout de logs en mode debug
 
 V2.0
 

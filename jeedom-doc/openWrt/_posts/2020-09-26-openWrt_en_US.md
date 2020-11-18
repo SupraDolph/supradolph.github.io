@@ -73,6 +73,13 @@ Commands are created automatically when saving :
 
 ## {{ site.t.en_US.Changelog }}
 
+V2.2
+
+*   Add SSH port in configuration screen
+*   less SSH connection per cron
+*   It still not possible to add network equipment when the jeedom one exists
+*   Accurate logs for debug mode
+
 V2.0
 
 *   Make STALE ARP status as up instead of down
