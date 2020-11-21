@@ -73,6 +73,10 @@ Commands are created automatically when saving :
 
 ## {{ site.t.en_US.Changelog }}
 
+V2.3
+
+*  Manage wifi interfaces (On/ Off/ Status)
+
 V2.2
 
 *   Add SSH port in configuration screen

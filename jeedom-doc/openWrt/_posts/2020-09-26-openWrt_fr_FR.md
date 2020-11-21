@@ -47,7 +47,9 @@ Lors de la sauvegarde de la configuration générale, le widget `Routeur` est cr
 
 ![](/jeedom-doc/{{ page.title }}/images/openWrtConfigCmdRouter.png)
 
-> Le port SSH par défaut sera utilisé s'il n'a pas été renseigné (22)
+> Les interfaces Wifi sont détectées automatiquement. Il est possible de les activer ou les désactiver à la demande.
+
+> Le port SSH par défaut sera utilisé s'il n'a pas été renseigné (22).
 
 > L'information `température` a été testée sur une architecture MediaTek MT7621. Le bon fonctionnement est à confirmer sur d'autres plateformes.
 
@@ -76,6 +78,10 @@ Les commandes sont créées automatiquement lors de la sauvegarde :
 1.  N/A
 
 ## {{ site.t.fr_FR.Changelog }}
+
+V2.3
+
+*   Gestion des interfaces wifi (On/ Off/ Statut)
 
 V2.2
 
