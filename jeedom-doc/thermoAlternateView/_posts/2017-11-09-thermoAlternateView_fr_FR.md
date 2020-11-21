@@ -73,7 +73,8 @@ Depuis le menu de gestion, ajoutez un widget. ![](/jeedom-doc/{{ page.title }}/i
 *   **Unité** : Unité de température affichée sur le widget (° par défaut)
 *   **Utiliser la couleur de fond du widget** : Permet d'utiliser la couleur de widget Jeedom plutôt que celle du template
 *   **Température extérieure visible** : Permet d'afficher la température extérieure (configurée dans le thermostat)
-*   **Hygrométrie visible** : Permet d'afficher l'hygrométrie (configurée dans le thermostat)
+*   **Hygrométrie visible** : Permet d'afficher l'hygrométrie
+*   **Commande d'hygrométrie** : Consigne d'hygrométrie affichée sur le thermostat
 *   **Puissance visible** : Permet d'afficher la puissance (configurée dans le thermostat)
 *   **Masquer les modes** : Permet de ne pas afficher le sélecteur de modes
 *   **Afficher la prochaine consigne (agenda)** : Affiche l'heure de la prochaine consigne de chauffage (expérimental). Cette fonctionnalité nécessite le plugin agenda.
@@ -91,6 +92,10 @@ Depuis le menu de gestion, ajoutez un widget. ![](/jeedom-doc/{{ page.title }}/i
 2.  Le rafraîchissement de la prochaine consigne ne fonctionne pas toujours
 
 ## Changelog
+
+V3.0
+
+*   Suite à la suppression de l'information hygrométrie dans le plugin thermostat, ajout de la commande dans la configuration
 
 V2.9
 

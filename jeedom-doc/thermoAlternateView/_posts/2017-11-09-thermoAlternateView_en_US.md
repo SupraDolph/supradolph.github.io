@@ -73,7 +73,8 @@ From the management menu, add a widget. ![](/jeedom-doc/{{ page.title }}/images/
 *   **Unit** : Temperature unit displayed on the widget (default °)
 *   **Use the background color of the widget** : Allows you to use the Jeedom widget color instead of the template color
 *   **Display external temperature** : Allows you to display the outdoor temperature (configured in the thermostat)
-*   **Display humidity** : Allows you to display the humidity level (configured in the thermostat)
+*   **Display humidity** : Allows you to display the humidity level
+*   **Humidity command** : Humidity command to display on the widget
 *   **Display power** : Allows you to display the power level (configured in the thermostat)
 *   **Hide modes** : Allows you not to display the mode selector switch
 *   **Display the next heating setpoint (calendar)** : Displays the time of the next (experimental) heating setpoint. This feature requires the agenda plugin.
@@ -91,6 +92,10 @@ From the management menu, add a widget. ![](/jeedom-doc/{{ page.title }}/images/
 2.  The refresh of the next setpoint does not always work
 
 ## Changelog
+
+V3.0
+
+*   Next to the deleted humidity command from the plugin thermostat, adding it into configuration options
 
 V2.9
 
