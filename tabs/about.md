@@ -8,8 +8,8 @@ redirect_from:
 
 ---
 
-Les plugins que je propose à la communauté sont issus de besoins personnels. Toutefois, j'ai pris le parti de vous les proposer et je passe énormément de temps à prendre en compte vos remarques pour y ajouter des fonctionnalités (que je n'utilise pas forcément), faire en sorte que celà fonctionne sur votre environnement ou encore à simplement vous assurer un support sur le forum.
-Naturellement tout celà est fait avec plaisir et sans obligation afin d'éviter aux plus débrouillards d'entre nous de réinventer la roue mais surtout à ceux qui n'ont pas les compétences de développement requises d'étendre les fonctionnalités de leur domotique personnelle.
+Les plugins que je propose à la communauté sont issus de besoins personnels. Toutefois, j'ai pris le parti de vous les proposer et je passe énormément de temps à prendre en compte vos remarques pour y ajouter des fonctionnalités (que je n'utilise pas forcément), faire en sorte que cela fonctionne sur votre environnement ou encore à simplement vous assurer un support sur le forum.
+Naturellement tout cela est fait avec plaisir et sans obligation afin d'éviter aux plus débrouillards d'entre nous de réinventer la roue mais surtout à ceux qui n'ont pas les compétences de développement requises d'étendre les fonctionnalités de leur domotique personnelle.
 
 Dans cet esprit mes plugins sont entièrement `gratuits` et le resterons. Toutefois, si vous souhaitez me soutenir, vous pouvez me faire un don via le bouton ci-dessous.
 
