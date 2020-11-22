@@ -73,6 +73,10 @@ Commands are created automatically when saving :
 
 ## {{ site.t.en_US.Changelog }}
 
+V2.5
+
+*   Temperature bugfix
+
 V2.3
 
 *  Manage wifi interfaces (On/ Off/ Status)

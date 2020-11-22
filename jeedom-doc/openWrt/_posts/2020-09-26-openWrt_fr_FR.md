@@ -79,6 +79,10 @@ Les commandes sont créées automatiquement lors de la sauvegarde :
 
 ## {{ site.t.fr_FR.Changelog }}
 
+V2.5
+
+*   Bugfix température
+
 V2.3
 
 *   Gestion des interfaces wifi (On/ Off/ Statut)
