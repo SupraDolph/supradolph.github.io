@@ -90,12 +90,21 @@ Depuis le menu de gestion, ajoutez un widget. ![](/jeedom-doc/{{ page.title }}/i
 
 1.  Après chaque mise à jour merci de forcer la réactualisation du cache du navigateur
 2.  Le rafraîchissement de la prochaine consigne ne fonctionne pas toujours
+3.  La mise à jour ne fonctionne pas. Si vous êtes sous Jeedom V3 la dernière version supportée est la V2.4 
 
 ## Changelog
+
+V3.1
+
+*   Arrondi de l'information d'hygrométrie (bug d'affichage)
 
 V3.0
 
 *   Suite à la suppression de l'information hygrométrie dans le plugin thermostat, ajout de la commande dans la configuration
+
+>[!IMPORTANT]
+>
+>La consigne d'humidité a été supprimée du plugin thermostat. Afin de continuer à avoir cette information sur le plugin, veuillez configurer l'option associée.
 
 V2.9
 
@@ -122,6 +131,10 @@ V2.5
 *   Revue du chargement des SVG pour éviter l'image résiduelle
 
 V2.4
+
+>[!IMPORTANT]
+>
+>Il s'agit de la dernière version pour Jeedom V3
 
 *   Compatibilité Jeedom v4
 *   Compatibilité php 7.3
