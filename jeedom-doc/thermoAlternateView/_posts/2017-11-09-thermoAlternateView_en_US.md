@@ -21,7 +21,7 @@ The **agenda** plugin is optional but is necessary to display the next setpoint 
 
 ### Configuration of the Thermostat plugin modes
 
-The mode selector uses icons that are associated with the thermostat mode label. For an optimal display (icons), the thermostat must include modes named **Day**, **Night**, **Comfort**, **Eco**, **Holiday**, **no frost**, **Comfort -2** and/or **Absent**.
+The mode selector uses icons that are associated with the thermostat mode label. For an optimal display (icons), the thermostat must include modes named **Day**, **Night**, **Comfort**, **Eco**, **Boost**, **Holiday**, **no frost**, **Comfort -2** and/or **Absent**.
 
 ![](/jeedom-doc/{{ page.title }}/images/thermoAlternateViewConfigModes.png)
 
@@ -92,6 +92,11 @@ From the management menu, add a widget. ![](/jeedom-doc/{{ page.title }}/images/
 2.  The refresh of the next setpoint does not always work
 
 ## Changelog
+
+V3.1
+
+*   Rounding humidity (bugfix)
+*   New "boost" mode
 
 V3.0
 

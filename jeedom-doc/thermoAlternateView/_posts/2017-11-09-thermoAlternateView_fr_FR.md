@@ -21,7 +21,7 @@ Le plugin **agenda** est facultatif mais est nécessaire afin d'afficher l'heure
 
 ### Configuration des modes du plugin Thermostat
 
-Le sélecteur de modes utilise des icônes qui sont associés au nom du mode du thermostat. Pour que le visuel soit optimal (icônes), le thermostat doit comporter des modes ayant pour nom **Jour**, **Nuit**, **Confort**, **Eco**, **Vacances**, **Vacance**, **Hors gel**, **Confort -2** et/ou **Absent**.
+Le sélecteur de modes utilise des icônes qui sont associés au nom du mode du thermostat. Pour que le visuel soit optimal (icônes), le thermostat doit comporter des modes ayant pour nom **Jour**, **Nuit**, **Confort**, **Eco**, **Boost**, **Vacances**, **Vacance**, **Hors gel**, **Confort -2** et/ou **Absent**.
 
 ![](/jeedom-doc/{{ page.title }}/images/thermoAlternateViewConfigModes.png)
 
@@ -97,6 +97,7 @@ Depuis le menu de gestion, ajoutez un widget. ![](/jeedom-doc/{{ page.title }}/i
 V3.1
 
 *   Arrondi de l'information d'hygrométrie (bug d'affichage)
+*   Ajout d'un mode boost
 
 V3.0
 
