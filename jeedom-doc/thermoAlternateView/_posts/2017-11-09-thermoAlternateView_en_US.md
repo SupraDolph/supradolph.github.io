@@ -1,7 +1,7 @@
 ---
 title: thermoAlternateView
 author: SupraDolph
-date: 2017-11-09 00:00:00 +0100
+date: 2021-04-15 00:00:00 +0100
 # categories: [jeedom-doc, openWrt]
 # tags: []
 toc: true
