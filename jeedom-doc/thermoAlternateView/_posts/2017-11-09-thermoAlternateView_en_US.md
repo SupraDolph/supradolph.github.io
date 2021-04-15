@@ -93,6 +93,11 @@ From the management menu, add a widget. ![](/jeedom-doc/{{ page.title }}/images/
 
 ## Changelog
 
+V3.3
+
+*   Bugfix when using thermostat in hysteresis mode: Power command is not available
+*   Bugfix next schedule when there is no end command
+
 V3.2
 
 *   Bugfix when using thermostat command instead of a mode in the agenda

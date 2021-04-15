@@ -94,6 +94,11 @@ Depuis le menu de gestion, ajoutez un widget. ![](/jeedom-doc/{{ page.title }}/i
 
 ## Changelog
 
+V3.3
+
+*   Correction en mode hystérésis : La commande de puissance n'existe pas
+*   Détermination du prochain mode lorsqu'il n'y a pas de commande de fin utilisée
+
 V3.2
 
 *   Correction du bug de détermination de la prochaine consigne lors de l'utilisation d'une consigne de thermostat et non d'un mode dans l'agenda
