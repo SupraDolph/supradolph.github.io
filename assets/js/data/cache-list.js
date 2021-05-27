@@ -41,7 +41,7 @@ const include = [
   {% endfor %}
 
   /* The posts of first Home page and recent update list */
-  {% assign post_list = "" | split: "" %}
+  /*{% assign post_list = "" | split: "" %}
 
   {% for post in site.posts limit: site.paginate %}
     {% capture post_url %}{{ post.url | relative_url }}{% endcapture %}
@@ -59,7 +59,7 @@ const include = [
 
   {% for url in post_list %}
     '{{ url }}',
-  {% endfor %}
+  {% endfor %}*/
 
   /* Trending tags */
   {% include trending-tags.html %}
