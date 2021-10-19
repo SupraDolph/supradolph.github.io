@@ -94,22 +94,26 @@ Depuis le menu de gestion, ajoutez un widget. ![](/jeedom-doc/{{ page.title }}/i
 
 ## Changelog
 
-V3.3
+V3.4 - 19/10/2021
+
+*   Compatible Jeedom 4.2 (SVG)
+
+V3.3 - 15/04/2021
 
 *   Correction en mode hystérésis : La commande de puissance n'existe pas
 *   Détermination du prochain mode lorsqu'il n'y a pas de commande de fin utilisée
 
-V3.2
+V3.2 - 19/12/2020
 
 *   Correction du bug de détermination de la prochaine consigne lors de l'utilisation d'une consigne de thermostat et non d'un mode dans l'agenda
 *   Ajout des modes télétravail et cheminée
 
-V3.1
+V3.1 - 23/11/2020
 
 *   Arrondi de l'information d'hygrométrie (bug d'affichage)
 *   Ajout d'un mode boost
 
-V3.0
+V3.0 - 21/11/2020
 
 *   Suite à la suppression de l'information hygrométrie dans le plugin thermostat, ajout de la commande dans la configuration
 
@@ -117,31 +121,31 @@ V3.0
 >
 >La consigne d'humidité a été supprimée du plugin thermostat. Afin de continuer à avoir cette information sur le plugin, veuillez configurer l'option associée.
 
-V2.9
+V2.9 - 18/06/2020
 
 *   SimpleLight/Dark : La température interne n'était pas mise à jour
 
-V2.8
+V2.8 - 06/05/2020
 
 *   Revue de l'ordre des modes
 *   Pour SimpleLight/Dark : Affiche la température quand le thermostat est éteint
 
-V2.7
+V2.7 - 02/05/2020
 
 *   Ajout des objets du mode design
 *   Bugfixes pour SimpleLight et SimpleDark
 
-V2.6
+V2.6 - 01/05/2020
 
 *   Correction % humidité
 *   Ajout des template SimpleLight et SimpleDark
 
-V2.5
+V2.5 - 09/03/2020
 
 *   Bugfixes
 *   Revue du chargement des SVG pour éviter l'image résiduelle
 
-V2.4
+V2.4 - 25/10/2019
 
 >[!IMPORTANT]
 >
@@ -150,87 +154,87 @@ V2.4
 *   Compatibilité Jeedom v4
 *   Compatibilité php 7.3
 
-V2.3
+V2.3 - 20/10/2019
 
 *   ATTENTION : Il faut vider le cache du navigateur et revalider les nouveaux paramètres dans la configuration !
 *   Ajout du template darkatmo
 *   Corrections esthétiques
 
-V2.2
+V2.2 - 27/02/2019
 
 *   Ajout de la puissance
 *   Bugfix vue mobile template Dark
 
-V2.1
+V2.1 - 26/02/2019
 
 *   Bugfix
 
-V2.0
+V2.0 - 20/01/2019
 
 *   Optimisation de l'espace
 *   Traduction en_US
 *   Ajout de l'hygrométrie
 
-V1.12
+V1.12 - 27/12/2018
 
 *   Correction regression agendas inactifs
 *   Ajout du nom de l'évènement
 
-V1.11
+V1.11 - 25/12/2018
 
 *   Correction du problème de taille de widget à l'initialisation
 *   Correction du problème d'agendas inactifs qui étaient pris en comptes
 
-V1.10
+V1.10 - 14/12/2018
 
 *   Ajout de la documentation
 *   Correction de la régression sur la catégorie
 
-V1.9
+V1.9 - 23/12/2017
 
 *   Affichage des statistiques en mode dialogue
 *   Ajout des catégories (ex: chauffage) dans la configuration du widget
 
-V1.8
+V1.8 - 29/11/2017
 
 *   Mettre un icon ventilateur en mode froid et gestion de sa couleur
 *   Ajout des modes Hors Gel et Confort -2
 *   En backoffice, factorisation des images pour les différents visuels
 
-V1.7
+V1.7 - 23/11/2017
 
 *   Choix de l'unité (°, %)
 *   Afficher le prochain changement d'agenda
 *   Gestion du mode "vacance"
 
-V1.6
+V1.6 - 18/11/2017
 
 *   Ajouter le lien vers les historiques des commandes de température
 *   Couleur du cadenas verrouillé
 *   Gestion du mode suspendu
 
-V1.5
+V1.5 - 16/11/2017
 
 *   Changer la couleur de l'icône sur le market : Identité visuelle requise par développeur
 *   Ajouter des icons pour d'autres noms de mode : à jour et nuit
 
-V1.4
+V1.4 - 15/11/2017
 
 *   Prise en charge de la configuration avancée d'affichage du Widget
 *   Possibilité de masquer les modes
 *   Possibilité de changer la couleur de la flamme de chauffe
 
-V1.3
+V1.3 - 12/11/2017
 
 *   Correction du bug sur le bouton de verrouillage du template dark
 
-V1.2
+V1.2 - 11/11/2017
 
 *   Factorisation du code
 *   Ajout du plugin Dark
 *   Ajout de la température extérieure
 
-V1.1
+V1.1 - 09/11/2017
 
 *   Correction de bug
 *   Ajout de la vue mobile

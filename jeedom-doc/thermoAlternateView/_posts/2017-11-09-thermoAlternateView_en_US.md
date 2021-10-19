@@ -93,6 +93,10 @@ From the management menu, add a widget. ![](/jeedom-doc/{{ page.title }}/images/
 
 ## Changelog
 
+V3.4 - 19/10/2021
+
+*   Jeedom 4.2 ready (SVG)
+
 V3.3
 
 *   Bugfix when using thermostat in hysteresis mode: Power command is not available
