@@ -21,7 +21,7 @@ Le plugin **agenda** est facultatif mais est nécessaire afin d'afficher l'heure
 
 ### Configuration des modes du plugin Thermostat
 
-Le sélecteur de modes utilise des icônes qui sont associés au nom du mode du thermostat. Pour que le visuel soit optimal (icônes), le thermostat doit comporter des modes ayant pour nom **Jour**, **Nuit**, **Confort**, **Eco**, **Boost**, **Télétravail**, **Vacances**, **Vacance**, **Hors gel**, **Confort -2**, **Cheminée** et/ou **Absent**.
+Le sélecteur de modes utilise des icônes qui sont associés au nom du mode du thermostat. Pour que le visuel soit optimal (icônes), le thermostat doit comporter des modes ayant pour nom **Jour**, **Nuit**, **Confort**, **Eco**, **Boost**, **Télétravail**, **Vacances**, **Vacance**, **Hors gel**, **Confort -2**, **Cheminée**, **Bain**, **Douche**, **Serviettes**, **Serviette** et/ou **Absent**.
 
 ![](/jeedom-doc/{{ page.title }}/images/thermoAlternateViewConfigModes.png)
 
@@ -93,6 +93,10 @@ Depuis le menu de gestion, ajoutez un widget. ![](/jeedom-doc/{{ page.title }}/i
 3.  La mise à jour ne fonctionne pas. Si vous êtes sous Jeedom V3 la dernière version supportée est la V2.4 
 
 ## Changelog
+
+V3.5 - 05/11/2021
+
+*   Ajout de nouveaux icons pour : bain, serviette et douche
 
 V3.4 - 19/10/2021
 

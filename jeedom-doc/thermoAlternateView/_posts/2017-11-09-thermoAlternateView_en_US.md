@@ -21,7 +21,7 @@ The **agenda** plugin is optional but is necessary to display the next setpoint 
 
 ### Configuration of the Thermostat plugin modes
 
-The mode selector uses icons that are associated with the thermostat mode label. For an optimal display (icons), the thermostat must include modes named **Day**, **Night**, **Comfort**, **Eco**, **Boost**, **homework**, **Holiday**, **no frost**, **Comfort -2**, **chimney** and/or **Absent**.
+The mode selector uses icons that are associated with the thermostat mode label. For an optimal display (icons), the thermostat must include modes named **Day**, **Night**, **Comfort**, **Eco**, **Boost**, **homework**, **Holiday**, **no frost**, **Comfort -2**, **Chimney**, **Bath**, **Towel**, **Shower** and/or **Absent**.
 
 ![](/jeedom-doc/{{ page.title }}/images/thermoAlternateViewConfigModes.png)
 
@@ -92,6 +92,10 @@ From the management menu, add a widget. ![](/jeedom-doc/{{ page.title }}/images/
 2.  The refresh of the next setpoint does not always work
 
 ## Changelog
+
+V3.5 - 05/11/2021
+
+*   Add icons for other mode names: bath, towel and shower
 
 V3.4 - 19/10/2021
 
