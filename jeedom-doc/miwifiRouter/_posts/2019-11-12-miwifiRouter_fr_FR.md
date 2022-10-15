@@ -56,6 +56,10 @@ Les commandes sont créées automatiquement lors de la sauvegarde :
 1.  N/A
 
 ## Changelog
+V1.2
+
+*   Correction des erreurs 404 pour certains routeurs
+*   Remplacement du nom de périphérique (oname devient name)
 
 V1.0
 

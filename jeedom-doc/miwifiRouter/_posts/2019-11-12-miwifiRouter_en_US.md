@@ -56,6 +56,10 @@ Commands are automatically created:
 1.  N/A
 
 ## Changelog
+V1.2
+
+*   bugfix 404 not found for some routers
+*   Replace oname by name for network equipments
 
 V1.0
 
