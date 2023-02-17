@@ -93,6 +93,9 @@ Depuis le menu de gestion, ajoutez un widget. ![](/jeedom-doc/{{ page.title }}/i
 3.  La mise à jour ne fonctionne pas. Si vous êtes sous Jeedom V3 la dernière version supportée est la V2.4 
 
 ## Changelog
+V4.0 - 17/02/2023
+
+*   Compatibilité Jeedom 4.4 (Mise à jour des infos)
 
 V3.5 - 05/11/2021
 
