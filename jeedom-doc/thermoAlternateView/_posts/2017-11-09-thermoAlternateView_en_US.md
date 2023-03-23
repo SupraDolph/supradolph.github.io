@@ -92,6 +92,10 @@ From the management menu, add a widget. ![](/jeedom-doc/{{ page.title }}/images/
 2.  The refresh of the next setpoint does not always work
 
 ## Changelog
+V4.1 - 23/03s/2023
+
+*   Heating mode doesn't appearing on page loading
+
 V4.0 - 17/02/2023
 
 *   Jeedom 4.4 ready (items refresh)
